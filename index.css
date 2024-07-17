@@ -1,77 +1,63 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-.logo {
-  height: 40px;
-}
-
-.header {
-  display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 200px;
-  width: 100vw;
-  justify-content: space-between;
-  background-color: white;
-  align-items: center;
-}
-.header2 {
-  display: flex;
-  align-items: center;
-  height: 150px;
-  margin: 1vw;
-  margin-left: 1vwpx;
-}
-.headerwords {
-  padding: 1vw;
-  font-size: 40px;
-}
-.headerwords:hover {
-  color: blue;
-}
-.searchicon {
-  display: flex;
-  height: 60px;
-  width: 60px;
-}
-.span {
-  display: flex;
-  height: 80px;
-  width: 80px;
-  background-color: rgb(230, 225, 218);
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-}
-.span:hover {
-  background-color: rgba(128, 128, 128, 0.584);
-}
-.read {
-  font-size: 50px;
-  margin: 30px;
-  color: white;
-}
-.span2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(22, 36, 241);
-  border-radius: 10px;
-  height: 90px;
-  margin-left: 30px;
-}
-.span2:hover {
-  background-color: rgba(128, 128, 128, 0.584);
-}
-.body {
-  background-color: rgb(245, 245, 245);
-  margin-top: 200px;
-  height: 200vh;
-}
-.lemon {
-  background-color: yellow;
-  font-size: 50px;
-  padding: 30px;
+@media screen and (min-width: 1201px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 0px 28px;
+    width: 100%;
+  }
+  .headerc {
+    display: flex;
+  }
+  .logo {
+    height: 22px;
+    border: none;
+    margin-right: 25px;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+  }
+  .logoc {
+  }
+  .buttonslogoc {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+  }
+  .taniltsuulahbutton1 {
+    border: none;
+    color: black;
+    font-size: 14px;
+    height: 56.5px;
+    background-color: white;
+    text-wrap: nowrap;
+    font-weight: 700;
+  }
+  .taniltsuulahbutton1:hover {
+    opacity: 1;
+    color: #0040d4;
+  }
+  .buttonsc {
+    display: flex;
+    gap: 3.5vw;
+    padding-left: 17px;
+  }
+  .searchiconseec {
+  }
+  .searchiconc {
+    background-color: #f5f8fc;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .searchicon {
+    height: 18px;
+  }
 }
