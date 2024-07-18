@@ -1,63 +1,123 @@
-@media screen and (min-width: 1201px) {
-  * {
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0px 28px;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.logo {
+  height: 22px;
+  border: none;
+  margin-right: 25px;
+  padding: 5px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.buttonslogoc {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+}
+.taniltsuulahbutton1 {
+  border: none;
+  color: #000;
+  font-size: 14px;
+  height: 56.5px;
+  background-color: white;
+  text-wrap: nowrap;
+  font-weight: 700;
+}
+.taniltsuulahbutton1:hover {
+  opacity: 1;
+  color: #0040d4;
+}
+.buttonsc {
+  display: flex;
+  gap: 3.5vw;
+  padding-left: 17px;
+}
+.searchiconseec {
+  display: flex;
+  align-items: center;
+}
+.searchiconc {
+  background-color: #f0f0f1;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchicon {
+  height: 18px;
+  padding: 3px;
+}
+.searchiconc:hover {
+  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.169);
+}
+.see {
+  padding: 11px 20px 9px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+}
+.seec {
+  background-color: #0040d4;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.container {
+  padding-top: 81.5px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lemonadeoguulberc {
+  display: flex;
+  align-items: center;
+}
+.lemonade {
+  background-color: gold;
+  padding: 10px 16px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  animation-name: "lemonade";
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes lemonade {
+  from {
+    background-color: gold;
   }
-  .header {
-    display: flex;
-    align-items: center;
-    padding: 0px 28px;
-    width: 100%;
+  to {
+    background-color: rgba(255, 217, 0, 0.324);
   }
-  .headerc {
-    display: flex;
-  }
-  .logo {
-    height: 22px;
-    border: none;
-    margin-right: 25px;
-    padding: 5px 0px;
-    display: flex;
-    align-items: center;
-  }
-  .logoc {
-  }
-  .buttonslogoc {
-    display: flex;
-    align-items: center;
-    padding: 5px 0px;
-  }
-  .taniltsuulahbutton1 {
-    border: none;
-    color: black;
-    font-size: 14px;
-    height: 56.5px;
-    background-color: white;
-    text-wrap: nowrap;
-    font-weight: 700;
-  }
-  .taniltsuulahbutton1:hover {
-    opacity: 1;
-    color: #0040d4;
-  }
-  .buttonsc {
-    display: flex;
-    gap: 3.5vw;
-    padding-left: 17px;
-  }
-  .searchiconseec {
-  }
-  .searchiconc {
-    background-color: #f5f8fc;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .searchicon {
-    height: 18px;
-  }
+}
+.oguulber {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+  background-color: #979a9a;
+  text-decoration: none;
+  padding: 10px 16px;
+  /* width: 100%; */
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
